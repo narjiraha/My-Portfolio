@@ -1,0 +1,115 @@
+.skillTile {
+    font-size: 2.5rem;
+    font-weight: 600;
+    padding-top: 3rem;
+    margin-bottom: 2rem;
+}
+
+.skillDescription {
+    text-align: center;
+    font-weight: 200;
+    font-size: 1rem;
+    font-weight: 500;
+    max-width: 50rem;
+    padding: 0 2rem;
+    margin-bottom: 1rem;
+}
+
+.mySkills {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+    text-align: left;
+}
+
+
+.skillIntro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+}
+
+h2 {
+    text-align: center;
+}
+
+.frontEnd {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 45rem;
+    justify-content: space-around;
+}
+
+.javascript {
+    height: 8.2rem;
+    width: 8.2rem;
+}
+
+.reactlogo {
+    height: 6rem;
+    width: 6rem;
+    border-radius: 20px;
+}
+
+.frontEnd2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 45rem;
+    justify-content: space-around;
+}
+
+.github {
+    height: 6rem;
+    width: 6rem;
+    border-radius: 20px;
+}
+
+.pythonlogo {
+    height: 6rem;
+    width: 7rem;
+    border-radius: 20px;
+}
+
+.nodelogo {
+    height: 6rem;
+    width: 6rem;
+    border-radius: 20px;
+}
+
+.frontEnd3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 45rem;
+    justify-content: space-around;
+}
+
+.mongodb {
+    height: 6rem;
+    width: 6rem;
+    border-radius: 20px;
+}
+
+.phplogo {
+    height: 6rem;
+    width: 6rem;
+    border-radius: 20px;
+}
+
+.awslogo {
+    height: 6rem;
+    width: 6rem;
+    border-radius: 20px;
+}
+
+.restapi {
+    height: 6rem;
+    width: 6rem;
+    border-radius: 20px;
+}

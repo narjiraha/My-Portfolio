@@ -1,0 +1,55 @@
+#contactSection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 190rem;
+    gap: 20px
+}
+
+
+.contactmeText {
+    background: linear-gradient(to right, rgb(102, 102, 202), rgb(191, 60, 182));
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    display: inline;
+    font-weight: 800;
+}
+
+.letsWork {
+    background: linear-gradient(to right, rgb(102, 102, 202), rgb(191, 60, 182));
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    display: inline;
+    font-weight: 800;
+}
+
+.contactInfo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contactDetail {
+    display: flex;
+    flex-direction: column;
+    padding: 3rem;
+    gap: 2rem
+}
+
+.links {
+    background: linear-gradient(to right, rgb(102, 102, 202), rgb(191, 60, 182));
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    display: inline;
+}
+
+.contactPoster img {
+    height: 35rem;
+    width: 30rem;
+    border-radius: 30px;
+    margin-top: 2rem;
+}

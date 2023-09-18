@@ -1,0 +1,106 @@
+/* #intro {
+    height: calc(100vh - 4rem);
+    width: 100vw;
+    max-width: 75rem;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.profile {
+    position: absolute;
+    top: 6rem;
+    right: 6rem;
+    bottom: 4rem;
+    object-fit: cover;
+    z-index: -1;
+    height: 90vh;
+    height: 35rem;
+}
+
+
+.introContent {
+    height: 100vh;
+    width: 100vw;
+    padding: 2rem;
+    font-size: 3rem;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+
+
+.intro {
+    height: calc(100vh - 5rem);
+}
+
+.introContent {
+    width: 100vw;
+    padding: 4rem;
+    font-size: 2rem;
+    font-weight: 70;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.introText {
+    max-width: 45rem;
+    padding: 2rem;
+}
+
+.hello {
+    font-size: 2rem;
+    font-weight: 100;
+}
+
+.myName {
+    color: yellow;
+}
+
+.btn {
+    background-color: white;
+    margin: 1rem 0;
+    padding: 0.75rem 1.5rem;
+    border: none;
+    border-radius: 2rem;
+    color: black;
+    font-size: large;
+    cursor: pointer;
+}
+
+.btnImg {
+    object-fit: cover;
+    margin: 0 0.25rem;
+    height: 1rem;
+}
+
+.profile {
+    height: 37rem;
+    width: 35rem;
+    border-radius: 50%;
+}
+
+.animated-text-container {
+    text-align: center;
+    font-size: 36px;
+}
+
+.animated-text {
+    display: inline-block;
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fadeInUp 0.5s ease forwards;
+}
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
